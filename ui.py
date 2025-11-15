@@ -22,7 +22,7 @@ class AgentState(TypedDict):
     messages: Annotated[List, operator.add]
 
 # Initialize LLM
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7,api_key="")
+llm = ChatOpenAI(model="gpt-4-turbo-preview", temperature=0.7,api_key="YOUR_OPENAI_API_KEY")
 
 # Node 1: Search for similar apps
 def search_similar_apps(state: AgentState) -> AgentState:
