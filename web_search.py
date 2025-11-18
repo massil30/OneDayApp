@@ -5,4 +5,6 @@ from langchain_community.tools import DuckDuckGoSearchResults
 
 search = DuckDuckGoSearchResults(output_format="list")
 
-search.invoke("Mobile Apps Food Delivery")
+# use `.run()` (common method) and capture/print the result
+result = search.run("Mobile Apps Food Delivery")
+print(result)

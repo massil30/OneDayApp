@@ -933,9 +933,8 @@ def present_themes(state: AgentState) -> AgentState:
 # FILE: src/nodes/user_selection.py
 # ============================================================================
 
-USER_SELECTION_PY = """
-from src.agents.state import AgentState
+##USER_SELECTION_PY = """
+#from src.agents.state import AgentState
 
-def get_user_selection(state: AgentState) -> AgentState:
-    \"\"\"
-    Node 4: Get user theme selection
+#def get_user_selection(state: AgentState) -> AgentState:
+ ##  Node 4: Get user theme selection
